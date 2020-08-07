@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="htmlcss bootstrap menu, navbar, mega menu examples" />
+<meta name="description" content="Bootstrap navbar examples for any type of project, Bootstrap 4" />  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<link rel="stylesheet" href="about.css">
+<title>Demo - Bootstrap navbar offcanvas on mobile. html code example </title>
+</head> 
+<body>
+    <section>
+        <img src="bg.jpg" id="bg">
+        <img src="moon.png" id="moon">
+        <img src="mountain.png" id="mountain">
+        <img src="road.png" id="road">
+        <h2 id="text">Qrious People</h2>
+    </section>
+    <div class="section">
+    <h1 id="a" class="wow fadeInUp">About Us</h1><br>
+    <p id="p" class="wow fadeInUp">Welcome to Qrious People, your number one source for information. Qrious People is an online platform to provide information on various categories of information for our curious world. </p><br>
+
+<p id="p" class="wow fadeInUp">Our moto is to “QUENCH THE THIRST OF CURIOUS PEOPLE”, who keep seeking for updated and correct information. We at Qrious People, work on our inspiring tagline ‘DIVIDED BY OPINIONS, UNITED BY CURIOSITY’ to meet the needs of people seeking for information on internet for their needs and to provide information in order to complete their search of curiosity.</p><br>
+
+<p id="p" class="wow fadeInUp">Our team is a collective of newshounds, nonconformist narrators, editors, makers, planners and examiners who have years of experience in the field. We understand the chaos that is the present reality and look to present to you the story, anyway you need it – on your telephone through recordings, opinion piece, infographics, livelinesss and narratives. </p><br>
+
+<p id="p" class="wow fadeInUp">Something's taking off the diagrams, and you're not so much sure why? Think you know a hint of something larger however you are still wondering k aakhir pura maajra hai kya? We have your back. Our Explainers plan to delve further into an issue and separate it for you, through clear content, outlines and recordings.</p><br>
+
+<p id="p" class="wow fadeInUp">We assure quality contents full of knowledge and information with regular updates. We're dedicated to giving you the very best of information, with a focus on accuracy, originality, quality and complete information.</p><br>
+
+<p id="p" class="wow fadeInUp">We hope you enjoy information services of Qrious People as much as we enjoy offering them to you. If you have any questions, comments or suggestions, please don't hesitate to contact us. </p><br>
+
+</p>
+    </div>
+    <script type="text/javascript">
+        let bg = document.getElementById("bg");
+        let moon = document.getElementById("moon");
+        let mountain = document.getElementById("mountain");
+        let road = document.getElementById("road");
+        let text = document.getElementById("text");
+
+        window.addEventListener('scroll',function(){
+            var value = window.scrollY;
+
+            bg.style.top = value * 0.5 + 'px';
+            moon.style.left = -value * 0.5 + 'px';
+            mountain.style.top = -value * 0.15 + 'px';
+            road.style.top = value * 0.5 + 'px';
+            text.style.top = value * 1 + 'px';
+        })
+    </script>
+    <script>
+              new WOW().init();
+              </script>
+              <script>
+</body>
+</html>
